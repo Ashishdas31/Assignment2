@@ -1,0 +1,120 @@
+Ans. 1. True and False are the two values of the Boolean data type
+
+
+Ans. 2. The three different types of Boolean operators are:
+
+1. Logical AND: The logical AND operator returns True if both operands are True, and False otherwise. 
+2. Logical OR : The logical OR operator returns True if at least one of the operands is True, and False if both operands are False. 
+3. Logical NOT : The logical NOT operator is a unary operator that negates the value of its operand. It returns True if the operand is False, and False if the operand is True. 
+
+
+Ans. 3. Here are the truth tables for the basic Boolean operators: AND, OR, NOT.
+
+AND Operator (&&):
+
+A	B	A && B
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+OR Operator (||):
+
+A	B	A || B
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+NOT Operator (!):
+
+A	!A
+0	1
+1	0
+
+
+Ans. 4. The values of the following expressions:-
+
+(5 > 4) and (3 == 5)  = False
+not (5 > 4)  = False
+(5 > 4) or (3 == 5)  = True
+not ((5 > 4) or (3 == 5))  = False
+(True and True) and (True == False)  = False
+(not False) or (not True)  = True
+
+
+Ans.  5. The six comparison operators are:
+
+1. Equal to (==): Compares if two values are equal and returns True if they are, False otherwise. For example: 3 == 3 would evaluate to True.
+
+2. Not equal to (!=): Compares if two values are not equal and returns True if they are not, False otherwise. For example: 3 != 4 would evaluate to True.
+
+3. Greater than (>): Compares if the left value is greater than the right value and returns True if it is, False otherwise. For example: 5 > 3 would evaluate to True.
+
+4. Less than (<): Compares if the left value is less than the right value and returns True if it is, False otherwise. For example: 2 < 6 would evaluate to True.
+
+5. Greater than or equal to (>=): Compares if the left value is greater than or equal to the right value and returns True if it is, False otherwise. For example: 4 >= 4 would evaluate to True.
+
+6. Less than or equal to (<=): Compares if the left value is less than or equal to the right value and returns True if it is, False otherwise. For example: 3 <= 4 would evaluate to True.
+
+
+Ans.  6. The equal to operator (==) is used for comparison, while the assignment operator (=) is used for assignment.
+The equal to operator (==) is used to compare two values for equality. It checks whether the values on both sides of the operator are equal or not. 
+x = 5
+y = 10
+if x == y:
+    print("x and y are equal")
+else:
+    print("x and y are not equal")
+The condition x == y compares the values of x and y to check if they are equal.
+x = 5
+y = x
+print(y)
+In this example, the value of x (which is 5) is assigned to the variable y using the assignment operator (=)
+
+
+
+Ans.  7. 
+block 1
+spam = 0
+if spam == 10:
+    print('eggs')
+
+block 2 
+if spam > 5:
+    print('bacon')
+else:
+    print('ham')
+
+block 3 
+print('spam')
+print('spam')
+
+
+Ans. 9. 
+Press Ctrl + C in the terminal or command prompt where the program is running. This sends a keyboard interrupt signal (SIGINT) to the program, which typically terminates its execution.
+
+
+Ans. 10. break statement:
+The break statement is used to exit the loop prematurely. When encountered, the break statement immediately terminates the innermost loop (where the break statement is located) and resumes execution at the next statement after the loop. It allows you to skip the remaining iterations of the loop and move on to the next part of the program.
+
+continue statement:
+The continue statement is used to skip the rest of the current iteration and proceed to the next iteration of the loop. When encountered, the continue statement causes the program to jump directly to the loop's next iteration, bypassing any remaining code within the loop for that iteration.
+
+
+Ans.  11. Difference between range(10), range(0, 10), and range(0, 10, 1)
+
+If we do iteration using for loop, range(10) gives values from 0 to 9
+range(0, 10) give same values from 0 to 9
+range(0, 10, 1) will also give same values.
+
+The only difference is in range(10) only stop values is given.
+In range(0, 10) Start value is 0 is given and stop value is 10
+In range(0, 10, 1) Start value is 0 is given, stop value is 10 and step value is 1.
+
+
+Ans.  13. After importing the spam module, you can call the bacon() function using the dot notation to access the function within the module.
+ 
+import spam
+spam.bacon()
+
+
+
